@@ -1,14 +1,20 @@
-body{background-color:#f4f4f4;}
-
-@font-face {    font-family: 'dhyana';
-    src: url('Users/Jasmine/Documents/GitHub/Dhyana/Dhyana-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+body{
+  background-color:#f4f4f4;
+  margin-top:-8%;
+  margin-left:5.6%
 }
-  
+
+@font-face {
+  font-family: 'dhyana regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Dhyana-Regular.woff'), url('https://cdn.glitch.global/40de2670-d958-4146-8e75-6f18957a507c/Dhyana-Regular.woff?v=1644128774345') format('woff');
+    }
+
 h1{
-  font-family: dhyana,sans-serif;
+  font-family: "dhyana regular",sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 270px;
+  line-height:88%;
 }
