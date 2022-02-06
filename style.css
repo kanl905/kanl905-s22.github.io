@@ -1,4 +1,4 @@
-body{background-color:#f4f4f4}
+body{background-color:#f4f4f4;}
 
 @font-face {    font-family: 'dhyana';
     src: url('Users/Jasmine/Documents/GitHub/Dhyana/Dhyana-Regular.ttf') format('truetype');
@@ -11,5 +11,4 @@ h1{
   font-style: normal;
   font-weight: normal;
   font-size: 270px;
-  line-height: 89.28%;
 }
