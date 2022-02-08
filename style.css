@@ -1,20 +1,54 @@
 body{
-  background-color:#f4f4f4;
-  margin-top:-8%;
-  margin-left:5.6%
+  padding-top:0px
 }
 
-@font-face {
-  font-family: 'dhyana regular';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Dhyana-Regular.woff'), url('https://cdn.glitch.global/40de2670-d958-4146-8e75-6f18957a507c/Dhyana-Regular.woff?v=1644128774345') format('woff');
-    }
+.maps{
+  background-color:#e899e6;
+  position: absolute;
+  left:0%; 
+  top:0%;
+  width: 33.3%;
+  height:100%;
+}
 
 h1{
-  font-family: "dhyana regular",sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 270px;
-  line-height:88%;
+  font-family: 'Ubuntu Mono', monospace;
+  color: #ffffff;
+  position: absolute;
+  left:29%; 
+  top:43%;
+}
+
+.sheets{
+  background-color:#8ff166;
+  position: absolute;
+  left:33.3%; 
+  top:0%;
+  width: 33.3%;
+  height:100%;
+}
+
+#sheets{
+  font-family: 'Ubuntu Mono', monospace;
+  color: #000000;
+  position: absolute;
+  left:29%; 
+  top:43%;
+}
+
+.spotify{
+  background-color:#0000ff;
+  position: absolute;
+  left:66.6%; 
+  top:0%;
+  width: 33.3%;
+  height:100%;
+}
+
+h2{
+  font-family: 'Ubuntu Mono', monospace;
+  color: #000000;
+  position: absolute;
+  font-size: 20px;
+  left:2%;
 }
