@@ -174,29 +174,99 @@ h1{
   font-size: 2.5vw;
 }
 
-
-iframe{
-  width: 55vw;
-  height: 60vh;
-  margin-left: 13vw;
-}
-
 .projects{
   margin-top:9vw;
 }
 
 #thumbnail{
-  width:50vw;
+  width:55vw;
   margin-left:11vw;
+  margin-top:1.6vw;
+}
+
+#thumbnail:hover{
+  transform: scale(1.01,1.01)
 }
 
 .sidebar{
   position:fixed;
   left: 6vw;
-  top: 15.4vw;
+  top: 17vw;
   font-family: dico-mono, monospace;
   font-weight: 400;
   font-style: normal;
   font-size: 1.3vw;
   line-height: 350%;
 }
+
+.crossplatform{
+  width:28vw;
+  position: absolute;
+  left: 68vw;
+  top: 17vw;
+  
+}
+
+.projectname{
+  font-family: "dhyana regular",sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2vw;
+  line-height: 270%;
+}
+
+.description{
+  font-family: "dico-mono",sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1vw;
+}
+
+/*class*/
+
+.names{
+  font-family: "dico mono", monospace;
+  font-size: 1.3vw;
+  border-radius: 50%;
+  line-height: 500%;  
+}
+
+.col1{
+  position: absolute;
+  left: 6vw; top: 18vw;
+}
+
+.col2{
+  position: absolute;
+  left: 25vw; top: 18vw;
+}
+
+.col3{
+  position: absolute;
+  left: 44vw; top: 18vw;
+}
+
+.col4{
+  position: absolute;
+  left: 63vw; top: 18vw;
+}
+
+.names a{
+  background-color: #f4f4f4;
+  padding: 1vw 2vw 1vw 2vw;
+  border-radius: 30px;
+  outline: dotted;
+}
+
+.names a:hover{
+  outline:solid;
+}
+
+#home{
+  width: 3vw;
+  position:absolute;
+  left:1vw;
+  top:1vw;
+}
+
+#home:hover{fill:#0000ff;}
