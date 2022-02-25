@@ -200,10 +200,10 @@ h1{
 }
 
 .crossplatform{
-  width:28vw;
+  width: 22vw;
   position: absolute;
-  left: 68vw;
-  top: 17vw;
+  left: 69vw;
+  top: 18vw;
   
 }
 
@@ -212,11 +212,12 @@ h1{
   font-style: normal;
   font-weight: bold;
   font-size: 2vw;
-  line-height: 270%;
+  line-height: 120%;
+  margin-bottom: 1.3vw;
 }
 
 .description{
-  font-family: "dico-mono",sans-serif;
+  font-family: "dico mono",sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 1vw;
@@ -270,3 +271,4 @@ h1{
 }
 
 #home:hover{fill:#0000ff;}
+
