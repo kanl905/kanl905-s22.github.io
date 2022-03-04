@@ -15,6 +15,7 @@ a:link{text-decoration:none;color:#000000;}
 a:visited{color: #000000;}
 a:hover{color: #0000ff;}
 
+
 .intro{
   margin-top:4vw;
 }
@@ -107,6 +108,8 @@ a:hover{color: #0000ff;}
   from   { transform: translateX(-118vw) scaleX(-1); }
   to { transform: translateX(100vw) scaleX(-1); }
 }
+
+.bio {display:none;}
 
 /*bio*/
 
@@ -272,3 +275,24 @@ h1{
 
 #home:hover{fill:#0000ff;}
 
+/* phone */
+
+@media only screen and (max-width: 428px) {
+  
+  .name{font-size: 100px;line-height: 93%;}
+
+  .intro {margin-top: 13vw;}
+  
+  .pronouns {position:absolute; left: 50vw; top: 51vw; font-size: 18px;}
+  
+  .links {font-size: 35px; position: absolute; right: 7.5vw; bottom: 13.5vw; line-height: 270%}
+  
+  .bio {display: block; font-family: "dhyana regular",sans-serif; font-style: normal; font-weight: normal; font-size: 18px; width: 80vw;}
+  
+  .
+}
+
+@keyframes scrollphone {
+  from   { transform: translateX(-118vw) scaleX(-1); }
+  to { transform: translateX(100vw) scaleX(-1); }
+}
