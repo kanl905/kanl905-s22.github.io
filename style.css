@@ -289,10 +289,10 @@ h1{
   
   .bio {display: block; font-family: "dhyana regular",sans-serif; font-style: normal; font-weight: normal; font-size: 18px; width: 80vw;}
   
-  .
+  .biobottom {animation: scrollphone 68s linear infinite;}
 }
 
 @keyframes scrollphone {
-  from   { transform: translateX(-118vw) scaleX(-1); }
+  from   { transform: translateX(-400vw) scaleX(-1); }
   to { transform: translateX(100vw) scaleX(-1); }
 }
