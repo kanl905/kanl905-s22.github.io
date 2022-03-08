@@ -1245,7 +1245,7 @@ body.p10 {
   animation: unblur 3s linear infinite alternate;
   animation-play-state: paused;
 }
-#p10one:hover{animation-play-state: running;}
+#p10one:hover{animation-play-state: running; cursor: help;}
 
 #p10two {
   position: absolute;
@@ -1254,7 +1254,7 @@ body.p10 {
   animation: unblur 3s linear infinite alternate;
   animation-play-state: paused;
 }
-#p10two:hover{animation-play-state: running;}
+#p10two:hover{animation-play-state: running;cursor: help;}
 
 #p10three {
   position: absolute;
@@ -1264,7 +1264,7 @@ body.p10 {
   animation: unblur 3s linear infinite alternate;
   animation-play-state: paused;
 }
-#p10three:hover{animation-play-state: running;}
+#p10three:hover{animation-play-state: running;cursor: help;}
 
 #p10four {
   position: absolute;
@@ -1274,7 +1274,7 @@ body.p10 {
   animation: unblur 3s linear infinite alternate;
   animation-play-state: paused;
 }
-#p10four:hover{animation-play-state: running;}
+#p10four:hover{animation-play-state: running;cursor: help;}
 
 
     /* NAV BOXXXXXXXXXXXX*/
