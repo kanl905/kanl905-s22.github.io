@@ -1,0 +1,100 @@
+body.index{
+  background-color:#f4f4f4;
+  margin-left:3.5vw;
+}
+
+/*index page*/
+@font-face {
+  font-family: 'dhyana regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Dhyana-Regular.woff'), url('https://cdn.glitch.global/40de2670-d958-4146-8e75-6f18957a507c/Dhyana-Regular.woff?v=1644128774345') format('woff');
+    }
+
+a:link{text-decoration:none;color:#000000;}
+a:visited{color: #000000;}
+a:hover{color: #0000ff;}
+
+body.studio{
+  background:#f4f4f4;
+  margin: 0 0 0 0;
+}
+
+h1{
+  font-family: "dhyana regular",sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10vw;
+  line-height:10%;
+  margin-left: 5vw;
+}
+
+.nav{
+  text-align:right;
+  position:fixed;
+  right: 5vw;
+  top: 4vw;
+  line-height: 170%;
+  font-family: "dhyana regular",sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5vw;
+}
+
+.projects{
+  margin-top:9vw;
+}
+
+#thumbnail{
+  width:55vw;
+  margin-left:11vw;
+  margin-top:1.6vw;
+}
+
+#thumbnail:hover{
+  transform: scale(1.01,1.01)
+}
+
+.sidebar{
+  position:fixed;
+  left: 6vw;
+  top: 17vw;
+  font-family: dico-mono, monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3vw;
+  line-height: 350%;
+}
+
+.plusonetwothree{
+  width: 22vw;
+  position: absolute;
+  left: 69vw;
+  top: 18vw;
+}
+
+.projectname{
+  font-family: "dhyana regular",sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2vw;
+  line-height: 120%;
+  margin-bottom: 1.3vw;
+}
+
+.description{
+  font-family: "dico mono",sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1vw;
+}
+
+#home{
+  width: 3vw;
+  position:absolute;
+  left:1vw;
+  top:1vw;
+}
+
+#home:hover{fill:#0000ff;}
+
