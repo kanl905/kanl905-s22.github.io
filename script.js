@@ -1,4 +1,39 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
+/* pop ups */
+$("#one").click(function() {
+    $("#oneinfo").toggle('blue black');
+});
 
-console.log("Hello, world!");
+  $("#two").click(function() {
+    $("#twoinfo").toggle('blue black');
+});
+
+  $("#three").click(function() {
+    $("#threeinfo").toggle('blue black');
+});
+
+  $("#four").click(function() {
+    $("#fourinfo").toggle('blue black');
+});
+
+/* colour */
+
+$("#one").click(function(){
+    $('#one').toggleClass('blue');
+    $('#oneinfo').toggleClass('blue');
+});
+
+$("#two").click(function(){
+    $('#two').toggleClass('blue');
+    $('#twoinfo').toggleClass('blue');
+});
+
+$("#three").click(function(){
+    $('#three').toggleClass('blue');
+    $('#threeinfo').toggleClass('blue');
+});
+
+$("#four").click(function(){
+    $('#four').toggleClass('blue');
+    $('#fourinfo').toggleClass('blue');
+});
+
