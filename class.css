@@ -79,3 +79,38 @@ a:hover{color: #0000ff;}
   outline:solid;
 }
 
+@media only screen and (max-width: 428px) {
+  
+  body{background-color: #f4f4f4;}
+  
+  .studionav{font-size: 25px; left: 5vw;} .labnav{font-size: 25px; right: 5vw;}
+  .classtitle{font-size: 105px; margin-top: 30vw;}
+  h1{font-size: 30px;} h2{font-size: 14px;}
+  
+  .names{
+  font-family: "dico mono", monospace;
+  font-size: 15px;
+  border-radius: 50%;
+  line-height: 500%;  
+      line-height: 350%;  
+
+}
+  
+  .col1{
+  left: 13vw; top: 60vw; text-align: left;
+}
+
+.col2{
+  left: 13vw; top: 115vw; text-align: left;
+}
+
+.col3{
+  right: 13vw; top: 100vw;left: auto !important; text-align: right;
+}
+
+.col4{
+  right: 13vw; top: 60vw;left: auto !important;text-align: right;
+}
+  
+  .names a{ outline-width: thin;}
+}
