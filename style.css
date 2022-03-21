@@ -11,9 +11,9 @@ body.index{
   src: local('Dhyana-Regular.woff'), url('https://cdn.glitch.global/40de2670-d958-4146-8e75-6f18957a507c/Dhyana-Regular.woff?v=1644128774345') format('woff');
     }
 
-a:link{text-decoration:none;color:#000000;}
-a:visited{color: #000000;}
-a:hover{color: #0000ff;}
+a:link{text-decoration:none;color:#000000; display: inline-block;}
+a:visited{color: #000000;display: inline-block;}
+a:hover{color: #0000ff; display: inline-block;}
 
 
 .intro{
@@ -160,7 +160,7 @@ body.studio{
   font-style: normal;
   font-weight: 400;
   font-size: 22vw;
-  line-height: 85%;
+  line-height: 80%;
   margin-top: 5vw;
   margin-bottom: 1vw;
   text-align: center;  
@@ -226,7 +226,7 @@ h1{
 
 h2{
   font-family: 'abel', sans-serif;
-  font-size: 1vw;
+  font-size: 1.3vw;
 }
 
 #oneinfo{width: 29vw; position: absolute; left: 17vw; top: 34vw;
@@ -260,46 +260,6 @@ h2{
 .blue{color:blue;}
 .black{color:black;}
 
-/*class*/
-
-.names{
-  font-family: "dico mono", monospace;
-  font-size: 1.3vw;
-  border-radius: 50%;
-  line-height: 500%;  
-}
-
-.col1{
-  position: absolute;
-  left: 6vw; top: 18vw;
-}
-
-.col2{
-  position: absolute;
-  left: 25vw; top: 18vw;
-}
-
-.col3{
-  position: absolute;
-  left: 44vw; top: 18vw;
-}
-
-.col4{
-  position: absolute;
-  left: 63vw; top: 18vw;
-}
-
-.names a{
-  background-color: #f4f4f4;
-  padding: 1vw 2vw 1vw 2vw;
-  border-radius: 30px;
-  outline: dotted;
-}
-
-.names a:hover{
-  outline:solid;
-}
-
 
 /* phone */
 
@@ -320,6 +280,23 @@ h2{
   .popup {font-size: 15px; width: 64vw; margin-left:16vw;}
   
   .doc {width: 64vw; margin-left: 16vw; margin-top: 40vw;}
+  
+  .labnav{font-size: 16px;} .classnav{font-size: 16px;}
+  .studiotitle{font-size: 90px; margin-top: 30vw;}
+  #one{font-size: 45px;position: absolute;left: 24vw;top: 60vw} 
+  #two{font-size: 45px;position: absolute;right: 24vw;top: 60vw;left: auto !important;} 
+  #three{font-size: 45px; position: absolute;left: 24vw; top: 86vw;} 
+  #four{font-size: 45px;position: absolute;right: 24vw;top: 86vw;}
+  h1{font-size: 30px;} h2{font-size: 14px;}
+  
+  #oneinfo{width: 49vw;
+    position: absolute;
+    left: 24vw;
+    top: 77vw;
+    padding: 8px;
+    border-radius: 30px;
+    background: #f4f4f4;
+  
 }
 
 @keyframes scrollphone {
