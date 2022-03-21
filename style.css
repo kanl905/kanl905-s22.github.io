@@ -277,25 +277,27 @@ h2{
   
   .biobottom {animation: scrollphone 68s linear infinite;}
   
-  .popup {font-size: 15px; width: 64vw; margin-left:16vw;}
+  .popup {font-size: 14.5px; width: 64vw; margin-left:16vw;border-radius: 0vw 0vw 2vw 2vw;}
   
   .doc {width: 64vw; margin-left: 16vw; margin-top: 40vw;}
+  .circle{left: 21vw; top: 41.5vw;padding: 0.3vw 1.5vw 0.3vw 1.5vw;border-radius: 40%;}
   
-  .labnav{font-size: 16px;} .classnav{font-size: 16px;}
-  .studiotitle{font-size: 90px; margin-top: 30vw;}
-  #one{font-size: 45px;position: absolute;left: 24vw;top: 60vw} 
-  #two{font-size: 45px;position: absolute;right: 24vw;top: 60vw;left: auto !important;} 
-  #three{font-size: 45px; position: absolute;left: 24vw; top: 86vw;} 
-  #four{font-size: 45px;position: absolute;right: 24vw;top: 86vw;}
+  .labnav{font-size: 20px;} .classnav{font-size: 20px;}
+  .studiotitle{font-size: 100px; margin-top: 35vw;}
+  #one{font-size: 55px;position: absolute;left: 24vw;top: 65vw} 
+  #two{font-size: 55px;position: absolute;right: 24vw;top: 65vw;left: auto !important;} 
+  #three{font-size: 55px; position: absolute;left: 24vw; top: 91vw;} 
+  #four{font-size: 55px;position: absolute;right: 24vw;top: 91vw;}
   h1{font-size: 30px;} h2{font-size: 14px;}
   
   #oneinfo{width: 49vw;
     position: absolute;
     left: 24vw;
-    top: 77vw;
+    top: 84vw;
     padding: 8px;
     border-radius: 30px;
     background: #f4f4f4;
+    outline-width: thin;
   
 }
 
