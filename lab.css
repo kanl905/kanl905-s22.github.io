@@ -119,3 +119,22 @@ h2{
 
 .blue{color:blue;}
 .black{color:black;}
+
+@media only screen and (max-width: 428px) {
+  
+  body{background-color: #f4f4f4;}
+  
+  .studionav{font-size: 25px; left: 5vw;} .classnav{font-size: 25px; right: 5vw;}
+  .labtitle{font-size: 105px; margin-top: 35vw;}
+  #one{font-size: 80px;position: absolute;left: 21vw;top: 66vw} 
+  #two{font-size: 80px;position: absolute;right: 21vw;top: 66vw;left: auto !important;} 
+  #three{font-size: 80px; position: absolute;left: 21vw; top: 99vw;} 
+  #four{font-size: 80px;position: absolute;right: 21vw;top: 99vw;}
+  h1{font-size: 30px;} h2{font-size: 14px;}
+  
+  #oneinfo{width: 53vw;position: absolute;left: 21vw; top: 90vw; padding: 7px; background: #f4f4f4; outline-width: thin;}
+  #twoinfo{width: 53vw;position: absolute; right: 21vw; top: 90vw;left: auto !important; padding: 7px; background: #f4f4f4; outline-width: thin;}
+  #threeinfo{width: 53vw;position: absolute; left: 22vw; top: 125vw;right: auto !important; padding: 7px; background: #f4f4f4; outline-width: thin;}
+  #fourinfo{width: 53vw;position: absolute; right: 22vw; top: 125vw; padding: 7px; background: #f4f4f4; outline-width: thin;}
+  
+}
