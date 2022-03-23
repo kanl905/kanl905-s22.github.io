@@ -51,22 +51,22 @@ a:hover{color: #0000ff;}
 
 .col1{
   position: absolute;
-  left: 16vw; top: 25vw;
+  left: 20vw; top: 25vw;
 }
 
 .col2{
   position: absolute;
-  left: 35vw; top: 25vw;
+  left: 36vw; top: 25vw;
 }
 
 .col3{
   position: absolute;
-  left: 53vw; top: 25vw;
+  left: 52vw; top: 25vw;
 }
 
 .col4{
   position: absolute;
-  left: 71vw; top: 25vw;
+  left: 67vw; top: 25vw;
 }
 
 .names a{
@@ -89,28 +89,36 @@ a:hover{color: #0000ff;}
   
   .names{
   font-family: "dico mono", monospace;
-  font-size: 15px;
-  border-radius: 50%;
-  line-height: 500%;  
-      line-height: 350%;  
-
-}
+  font-size: 15px; border-radius: 50%; line-height: 500%; line-height: 350%;}
   
-  .col1{
-  left: 13vw; top: 60vw; text-align: left;
-}
-
-.col2{
-  left: 13vw; top: 115vw; text-align: left;
-}
-
-.col3{
-  right: 13vw; top: 100vw;left: auto !important; text-align: right;
-}
-
-.col4{
-  right: 13vw; top: 60vw;left: auto !important;text-align: right;
-}
+  .col1{left: 13vw; top: 60vw; text-align: left;}
+  .col2{left: 13vw; top: 115vw; text-align: left;}
+  .col3{right: 13vw; top: 100vw;left: auto !important; text-align: right;}
+  .col4{right: 13vw; top: 60vw;left: auto !important;text-align: right;}
   
   .names a{ outline-width: thin;}
+}
+
+@media only screen and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : landscape) {
+  
+    body{overflow: hidden;}
+    .names a{outline-width: thin;}
+}
+
+@media only screen and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : portrait) {
+  
+  body{overflow: hidden;}
+  .studionav{font-size: 27px; left: 3vw;} .labnav{font-size: 27px; right: 3vw;}
+  .classtitle{font-size: 240px;margin-top: 8vw;}  
+  
+  .names a{outline-width: thin;}
+  .names{font-family: "dico mono", monospace; font-size: 18px;line-height: 360%;}
+  .col1{left: 25vw; top: 36vw; text-align: left;}
+  .col2{left: 25vw; top: 67vw; text-align: left;}
+  .col3{right: 25vw; top: 36vw;left: auto !important; text-align: right;}
+  .col4{right: 25vw; top: 59vw;left: auto !important;text-align: right;}
 }

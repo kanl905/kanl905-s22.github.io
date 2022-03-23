@@ -138,3 +138,33 @@ h2{
   #fourinfo{width: 53vw;position: absolute; right: 22vw; top: 125vw; padding: 7px; background: #f4f4f4; outline-width: thin;}
   
 }
+
+@media only screen and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : landscape) {
+  
+    body{overflow: hidden;}
+    #oneinfo{outline-width: thin;} #twoinfo{outline-width: thin;}
+    #threeinfo{outline-width: thin;} #fourinfo{outline-width: thin;}
+    .circle{top: 19vw;}
+}
+
+@media only screen and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : portrait) {
+  
+  body{overflow: hidden;background-color:#f4f4f4;}
+  .studionav{font-size: 27px; left: 3vw;} .classnav{font-size: 27px; right: 3vw;}
+  .labtitle{font-size: 240px;margin-top: 8vw;}  
+  
+  #one{font-size: 110px;position: absolute;left: 30vw;top: 40vw} 
+  #two{font-size: 110px;position: absolute;right: 30vw;top: 40vw;left: auto !important;} 
+  #three{font-size: 110px; position: absolute;left: 30vw; top: 75vw;} 
+  #four{font-size: 110px;position: absolute;right: 30vw;top: 75vw;}
+  h1{font-size: 40px;} h2{font-size: 17px;}
+  
+  #oneinfo{width: 40vw;position: absolute;left: 30vw; top: 58vw; padding: 7px; background: #f4f4f4; outline-width: thin;}
+  #twoinfo{width: 40vw;position: absolute; right: 30vw; top: 58vw;left: auto !important; padding: 7px; background: #f4f4f4; outline-width: thin;}
+  #threeinfo{width: 40vw;position: absolute; left: 30vw; top: 92vw;right: auto !important; padding: 7px; background: #f4f4f4; outline-width: thin;}
+  #fourinfo{width: 40vw;position: absolute; right: 30vw; top: 92vw; padding: 7px; background: #f4f4f4; outline-width: thin;}
+}
