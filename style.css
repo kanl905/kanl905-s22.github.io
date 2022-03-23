@@ -1,6 +1,7 @@
 body.index{
   background-color:#f4f4f4;
   margin-left:3.5vw;
+  overflow: hidden;
 }
 
 /*index page*/
@@ -265,6 +266,7 @@ h2{
 
 @media only screen and (max-width: 428px) {
   
+  body{overflow: hidden;}
   .name{font-size: 90px; line-height: 93%;}
 
   .intro {margin-top: 11vw;}
@@ -299,4 +301,34 @@ h2{
 @keyframes scrollphone {
   from   { transform: translateX(-400vw) scaleX(-1); }
   to { transform: translateX(100vw) scaleX(-1); }
+}
+
+@media only screen and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : landscape) {
+  
+    body{overflow: hidden;}
+    #oneinfo{outline-width: thin;} #twoinfo{outline-width: thin;}
+    #threeinfo{width: 25vw;outline-width: thin;} #fourinfo{width: 27vw;outline-width: thin;}
+    .circle{top: 19vw;}
+}
+
+@media only screen and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : portrait) {
+  
+  body{overflow: hidden;background-color:#f4f4f4;}
+  .labnav{font-size: 27px; left: 3vw;} .classnav{font-size: 27px; right: 3vw;}
+  .studiotitle{font-size: 230px;margin-top: 8vw;}  
+  
+  #one{font-size: 110px;position: absolute;left: 30vw;top: 40vw} 
+  #two{font-size: 110px;position: absolute;right: 30vw;top: 40vw;left: auto !important;} 
+  #three{font-size: 110px; position: absolute;left: 30vw; top: 75vw;} 
+  #four{font-size: 110px;position: absolute;right: 30vw;top: 75vw;}
+  h1{font-size: 40px;} h2{font-size: 17px;}
+  
+  #oneinfo{width: 39vw;position: absolute;left: 30vw; top: 55vw; padding: 7px; background: #f4f4f4; outline-width: thin;}
+  #twoinfo{width: 39vw;position: absolute; right: 30vw; top: 55vw;left: auto !important; padding: 7px; background: #f4f4f4; outline-width: thin;}
+  #threeinfo{width: 39vw;position: absolute; left: 30vw; top: 92vw;right: auto !important; padding: 7px; background: #f4f4f4; outline-width: thin;}
+  #fourinfo{width: 39vw;position: absolute; right: 30vw; top: 92vw; padding: 7px; background: #f4f4f4; outline-width: thin;}
 }
