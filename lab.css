@@ -30,7 +30,7 @@ a:hover{color: #0000ff;}
   text-align:right;
   position:fixed;
   left: 2vw;
-  top: 1vw;
+  top: 0vw;
   line-height: 170%;
   font-family: "dhyana regular",sans-serif;
   font-style: normal; font-weight: normal; font-size: 2.5vw;
@@ -39,7 +39,7 @@ a:hover{color: #0000ff;}
 .classnav{
   position:fixed;
   right: 2vw;
-  top: 1vw;
+  top: 0vw;
   line-height: 170%;
   font-family: "dhyana regular",sans-serif;
   font-style: normal; font-weight: normal; font-size: 2.5vw;
@@ -93,28 +93,28 @@ h2{
   padding: 1vw 1vw 1vw 1vw;
   border-radius: 30px;
   outline: dotted;
-  display:none;
+  display:none;color: #0000ff;
 }
 
 #twoinfo{width: 25vw; position: absolute; left: 35vw; top: 34vw;
   padding: 1vw 1vw 1vw 1vw;
   border-radius: 30px;
   outline: dotted;
-  display:none;
+  display:none;color: #0000ff;
 }
 
 #threeinfo{width: 21vw; position: absolute; right: 37vw; top: 34vw;
   padding: 1vw 1vw 1vw 1vw;
   border-radius: 30px;
   outline: dotted;
-  display:none;
+  display:none;color: #0000ff;
 }
 
 #fourinfo{width: 24vw; position: absolute; right: 18vw; top: 34vw;
   padding: 1vw 1vw 1vw 1vw;
   border-radius: 30px;
   outline: dotted;
-  display:none;
+  display:none;color: #0000ff;
 }
 
 .blue{color:blue;}
