@@ -191,7 +191,7 @@ body.studio{
   font-size: 8vw;
   position: absolute; left: 17vw;
 }
-
+#one.blueclick {color: blue;}
 #one:hover {cursor: help;}
 
 #two{
@@ -199,7 +199,7 @@ body.studio{
   font-size: 8vw;
   position: absolute; left: 35vw;
 }
-
+#two.blueclick {color: blue;}
 #two:hover {cursor: help;}
 
 #three{
@@ -207,7 +207,7 @@ body.studio{
   font-size: 8vw;
   position: absolute; right: 37vw;
 }
-
+#three.blueclick {color: blue;}
 #three:hover {cursor: help;}
 
 #four{
@@ -215,7 +215,7 @@ body.studio{
   font-size: 8vw;
   position: absolute; right: 18vw;
 }
-
+#four.blueclick {color: blue;}
 #four:hover {cursor: help;}
 
 h1{
