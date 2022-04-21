@@ -303,6 +303,7 @@ h2{
   to { transform: translateX(100vw) scaleX(-1); }
 }
 
+/* lanscape ipad */
 @media only screen and (min-device-width : 768px) 
   and (max-device-width : 1024px) 
   and (orientation : landscape) {
@@ -312,7 +313,7 @@ h2{
     #threeinfo{width: 25vw;outline-width: thin;} #fourinfo{width: 27vw;outline-width: thin;}
     .circle{top: 19vw;}
 }
-
+/* portrait ipad */
 @media only screen and (min-device-width : 768px) 
   and (max-device-width : 1024px) 
   and (orientation : portrait) {
