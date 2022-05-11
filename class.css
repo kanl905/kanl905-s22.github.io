@@ -72,18 +72,19 @@ a:hover{color: #0000ff;}
 .names a{
   padding: 1vw 2vw 1vw 2vw;
   border-radius: 30px;
-  outline: dotted;
+  border: dotted;
 }
 
 .names a:hover{
-  outline:solid;
+  border:solid;
 }
 
+/* phone*/
 @media only screen and (max-width: 428px) {
   
   body{background-color: #f4f4f4;}
   
-  .studionav{font-size: 25px; left: 5vw;} .labnav{font-size: 25px; right: 5vw;}
+  .studionav{font-size: 25px; right: 5vw;} .labnav{font-size: 25px; left: 5vw;}
   .classtitle{font-size: 105px; margin-top: 30vw;}
   h1{font-size: 30px;} h2{font-size: 14px;}
   
@@ -96,7 +97,7 @@ a:hover{color: #0000ff;}
   .col3{right: 13vw; top: 100vw;left: auto !important; text-align: right;}
   .col4{right: 13vw; top: 60vw;left: auto !important;text-align: right;}
   
-  .names a{ outline-width: thin;}
+  .names a{ border-width: thin; -webkit-border-radius: 12px;}
 }
 
 @media only screen and (min-device-width : 768px) 
@@ -104,7 +105,7 @@ a:hover{color: #0000ff;}
   and (orientation : landscape) {
   
     body{overflow: hidden;}
-    .names a{outline-width: thin;}
+    .names a{outline-width: thin; -webkit-border-radius: 20px;}
 }
 
 @media only screen and (min-device-width : 768px) 
@@ -112,7 +113,7 @@ a:hover{color: #0000ff;}
   and (orientation : portrait) {
   
   body{overflow: hidden;}
-  .studionav{font-size: 27px; left: 3vw;} .labnav{font-size: 27px; right: 3vw;}
+  .studionav{font-size: 27px; right: 3vw;} .labnav{font-size: 27px; left: 3vw;}
   .classtitle{font-size: 240px;margin-top: 8vw;}  
   
   .names a{outline-width: thin;}
@@ -122,3 +123,4 @@ a:hover{color: #0000ff;}
   .col3{right: 25vw; top: 36vw;left: auto !important; text-align: right;}
   .col4{right: 25vw; top: 59vw;left: auto !important;text-align: right;}
 }
+

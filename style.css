@@ -233,28 +233,28 @@ h2{
 #oneinfo{width: 29vw; position: absolute; left: 17vw; top: 34vw;
   padding: 1vw 1vw 1vw 1vw;
   border-radius: 30px;
-  outline: dotted;
+  border: dotted;
   display:none; color: #0000ff;
 }
 
 #twoinfo{width: 25vw; position: absolute; left: 35vw; top: 34vw;
   padding: 1vw 1vw 1vw 1vw;
   border-radius: 30px;
-  outline: dotted;
+  border: dotted;
   display:none; color: #0000ff;
 }
 
 #threeinfo{width: 21vw; position: absolute; right: 37vw; top: 34vw;
   padding: 1vw 1vw 1vw 1vw;
   border-radius: 30px;
-  outline: dotted;
+  border: dotted;
   display:none; color: #0000ff;
 }
 
 #fourinfo{width: 24vw; position: absolute; right: 18vw; top: 34vw;
   padding: 1vw 1vw 1vw 1vw;
   border-radius: 30px;
-  outline: dotted;
+  border: dotted;
   display:none; color: #0000ff;
 }
 
@@ -292,10 +292,11 @@ h2{
   #four{font-size: 80px;position: absolute;right: 21vw;top: 99vw;}
   h1{font-size: 30px;} h2{font-size: 14px;}
   
-  #oneinfo{width: 53vw;position: absolute;left: 21vw; top: 90vw; padding: 7px; background: #f4f4f4; outline-width: thin;}
-  #twoinfo{width: 53vw;position: absolute; right: 21vw; top: 90vw;left: auto !important; padding: 7px; background: #f4f4f4; outline-width: thin;}
-  #threeinfo{width: 53vw;position: absolute; left: 22vw; top: 125vw;right: auto !important; padding: 7px; background: #f4f4f4; outline-width: thin;}
-  #fourinfo{width: 53vw;position: absolute; right: 22vw; top: 125vw; padding: 7px; background: #f4f4f4; outline-width: thin;}
+  #oneinfo{width: 53vw;position: absolute;left: 21vw; top: 90vw; padding: 7px; background: #f4f4f4; border-width: thin;  -webkit-border-radius: 20px; 
+  -moz-border-radius: 30px; }
+  #twoinfo{width: 53vw;position: absolute; right: 21vw; top: 90vw;left: auto !important; padding: 7px; background: #f4f4f4; border-width: thin;  -webkit-border-radius: 20px;}
+  #threeinfo{width: 53vw;position: absolute; left: 22vw; top: 125vw;right: auto !important; padding: 7px; background: #f4f4f4; border-width: thin; -webkit-border-radius: 20px;}
+  #fourinfo{width: 53vw;position: absolute; right: 22vw; top: 125vw; padding: 7px; background: #f4f4f4; border-width: thin; -webkit-border-radius: 20px;}
 }
   
 @keyframes scrollphone {
